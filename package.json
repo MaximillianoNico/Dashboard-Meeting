@@ -53,5 +53,12 @@
     "moxios": "^0.4.0",
     "react-id-swiper": "^1.6.8",
     "redux-mock-store": "^1.5.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test",
+      "...": "..."
+    }
   }
 }
