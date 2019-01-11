@@ -21,24 +21,25 @@
   "homepage": "https://github.com/MaximillianoNico/Dashboard-Meeting#readme",
   "dependencies": {
     "@zeit/next-sass": "^1.0.1",
+    "axios": "^0.18.0",
+    "babel-plugin-inline-react-svg": "^1.0.1",
+    "babel-plugin-root-import": "^6.1.0",
     "dotenv": "^6.2.0",
     "dotenv-webpack": "^1.6.0",
+    "isomorphic-unfetch": "^3.0.0",
     "next": "^7.0.2",
     "node-sass": "^4.11.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
-    "workbox-webpack-plugin": "^3.6.3",
+    "react-redux": "^5.0.7",
     "redux": "^4.0.1",
     "redux-devtools-extension": "^2.13.2",
     "redux-localstorage-simple": "^2.1.4",
     "redux-logger": "^3.0.6",
     "redux-thunk": "^2.3.0",
-    "react-redux": "^5.0.7",
-    "axios": "^0.18.0",
-    "isomorphic-unfetch": "^3.0.0"
+    "workbox-webpack-plugin": "^3.6.3"
   },
   "devDependencies": {
-    "jest": "^23.6.0",
     "enzyme": "^3.7.0",
     "enzyme-adapter-react-16": "^1.6.0",
     "enzyme-to-json": "^3.3.4",
@@ -49,10 +50,19 @@
     "eslint-plugin-jsx-a11y": "^6.1.2",
     "eslint-plugin-react": "^7.11.1",
     "husky": "^1.1.1",
+    "jest": "^23.6.0",
     "mocha": "^5.2.0",
     "moxios": "^0.4.0",
     "react-id-swiper": "^1.6.8",
-    "redux-mock-store": "^1.5.3"
+    "redux-mock-store": "^1.5.3",
+    "babel-eslint": "^10.0.1",
+    "babel-plugin-dynamic-import-node": "^2.2.0",
+    "babel-plugin-inline-dotenv": "^1.1.2",
+    "babel-plugin-inline-react-svg": "^1.0.1",
+    "babel-plugin-root-import": "^6.1.0",
+    "babel-plugin-transform-define": "^1.3.0",
+    "babel-plugin-transform-inline-environment-variables": "^0.4.3",
+    "babel-plugin-transform-remove-console": "^6.9.4"
   },
   "husky": {
     "hooks": {
