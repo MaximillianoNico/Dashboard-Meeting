@@ -90,9 +90,9 @@ $box-effect: 0 1px 1px rgba(182, 180, 180, 0.12), 0 1px 1px rgba(92, 91, 91, 0.2
 }
 
 .card-meeting{
-  margin-top: 1.5em;
+  margin: 1.5em 0.5em 0.7em 0.5em;
   width: 250px;
-  height: 220px;
+  height: 250px;
   background-color: white;
   box-shadow: $box-effect;
   border-radius: 3px;
@@ -182,6 +182,9 @@ $box-effect: 0 1px 1px rgba(182, 180, 180, 0.12), 0 1px 1px rgba(92, 91, 91, 0.2
   background-color: white;
   height: 31px;
   width: 100%;
+  ::visited{
+    background-color: rgb(91, 157, 243);
+  }
 }
 
 .users-total-count{

@@ -58,7 +58,7 @@ class Index extends React.Component{
           <div className="dashboard__card-title">
             <p>Today - 8 meeting</p>
           </div>
-          <div className="dashboard__cards-meeting">
+          <div className="dashboard__card-meeting">
             <div className="card-meeting">
               <div className="title-meeting">
                 <div className="meeting-user-img">
