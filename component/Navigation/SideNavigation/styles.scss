@@ -1,0 +1,66 @@
+.sidebar__index{
+  border: 1px solid white;
+  width: 12em;
+  border-radius: 10px 10px 0px 0px;
+  padding: 19px;
+  background-color: white;
+  box-shadow: 0 2px 2px rgba(155, 153, 153, 0.12), 0 1px 2px rgba(0,0,0,0.24);
+  font-family: 'Open Sans', sans-serif;
+  height: 90vh;
+  position: relative;
+}
+.sidebar__profile{
+  display: flex;
+}
+.sidebar__desc{
+  margin: 0px 7px 0px 12px;
+}
+
+.sidebar__menu{
+  margin: 20% 2%;
+}
+
+.sidebar__icons-top{
+  position: absolute;
+  top: -5px;
+  right: 30px;
+  color: rgb(43, 151, 77);
+}
+
+.sidebar__btn-quit{
+  margin-top: 35%;
+}
+
+.sidebar__menu-item{
+  margin: 1.7em 1.3em;
+  display: flex;
+}
+
+.menu-icons{
+  font-size: 15px;
+  color: #838282;
+  width: 20px;
+}
+.menu-names{
+  padding-left: 13%;
+  font-size: 13px;
+  font-weight: bold;
+  color: #b4b3b3;
+}
+
+.title-profile{
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+  color: #413f3f;
+}
+.job-profile{
+  font-size: 10px;
+  color: #535151;
+}
+.img-profile{
+  width: 30px;
+  height: 30px;
+  border-radius: 5px;
+  margin: 2px;
+}
